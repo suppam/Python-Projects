@@ -1,3 +1,6 @@
+
+# exercise 3
+
 def tripling_value(single_digit):
     """ (int) -> int
 
@@ -19,6 +22,7 @@ def tripling_value(single_digit):
     return (single_digit*100) + (single_digit*10) + (single_digit)
 
 
+# exercise 3
 
 def times_three(num):
     """ (int) -> int
@@ -38,5 +42,26 @@ def times_three(num):
 
     return num*3
 
-    
-    
+
+# exercise 4
+
+def absolute_difference(num1, num2):
+    """ (int, int) -> int
+
+    Return a value that is the difference of the value in absolute terms
+
+    >>> absolute_difference(9, 14)
+    5
+
+    >>> absolute_difference(19, 1)
+    18
+
+    >>> absolute_difference(-70, 0)
+    70
+
+    """
+
+    return abs(num2 - num1)
+
+
+
