@@ -13,7 +13,7 @@ print(c)
 
 # excercise 2
 
-"""
+
 import calendar
 print(calendar.isleap(2020))
 print(calendar.isleap(2024))
@@ -23,7 +23,7 @@ dir(calendar)
 
 print(calendar.leapdays(2021, 2050))
 print(calendar.weekday(2016, 7, 29))
-"""
+
 
 # excercise 3
 
